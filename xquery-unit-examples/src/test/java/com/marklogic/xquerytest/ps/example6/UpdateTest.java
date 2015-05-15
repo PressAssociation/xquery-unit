@@ -1,5 +1,6 @@
 package com.marklogic.xquerytest.ps.example6;
 
+import static org.junit.Assert.*;
 import com.marklogic.ps.test.XQueryTestCase;
 import com.marklogic.xcc.ResultSequence;
 import com.marklogic.xcc.ValueFactory;
@@ -14,7 +15,7 @@ import com.marklogic.xcc.types.XdmVariable;
  */
 public class UpdateTest extends XQueryTestCase {
 	private String docUri = "/medline1.xml";
-	protected void setUp() throws Exception {
+	public void setUp() throws Exception {
 		super.setUp();
 		this.insertTestContent("resource/medline1.xml", docUri);
 	}

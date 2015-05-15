@@ -1,5 +1,7 @@
 package com.marklogic.xquerytest.ps.example1;
 
+import static org.junit.Assert.assertNotNull;
+
 import org.jdom.Document;
 
 import com.marklogic.ps.test.XQueryTestCase;

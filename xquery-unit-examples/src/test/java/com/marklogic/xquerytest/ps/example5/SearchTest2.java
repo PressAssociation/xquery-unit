@@ -1,5 +1,6 @@
 package com.marklogic.xquerytest.ps.example5;
 
+import static org.junit.Assert.*;
 import org.apache.xpath.XPathAPI;
 import org.apache.xpath.objects.XObject;
 import org.w3c.dom.Document;
@@ -14,7 +15,7 @@ import com.marklogic.ps.util.JDomUtils;
  *
  */
 public class SearchTest2 extends XQueryXmlHttpTestCase {
-	protected void setUp() throws Exception {
+	public void setUp() throws Exception {
 		this.setServicePath("example4/search.xqy");
 		super.setUp();
 		this.insertTestContent("resource/medline1.xml");
@@ -31,7 +32,7 @@ public class SearchTest2 extends XQueryXmlHttpTestCase {
 	}	
 	
 	@Override
-	protected void tearDown() throws Exception {
+	public void tearDown() throws Exception {
 		// TODO Auto-generated method stub
 		super.tearDown();
 	}

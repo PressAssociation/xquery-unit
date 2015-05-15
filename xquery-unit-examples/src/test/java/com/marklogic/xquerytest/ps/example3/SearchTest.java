@@ -1,5 +1,6 @@
 package com.marklogic.xquerytest.ps.example3;
 
+import static org.junit.Assert.assertNotNull;
 import org.jdom.Document;
 import org.jdom.Element;
 import org.jdom.xpath.XPath;
@@ -7,7 +8,7 @@ import org.jdom.xpath.XPath;
 import com.marklogic.ps.test.XQueryXmlHttpTestCase;
 
 public class SearchTest extends XQueryXmlHttpTestCase {
-	protected void setUp() throws Exception {
+	public void setUp() throws Exception {
 		this.setServicePath("example3/search.xqy");
 		super.setUp();
 	}

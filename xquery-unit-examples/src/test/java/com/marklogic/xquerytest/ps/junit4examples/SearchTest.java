@@ -1,5 +1,7 @@
 package com.marklogic.xquerytest.ps.junit4examples;
 
+import static org.junit.Assert.assertNotNull;
+
 import org.jdom.Document;
 import org.jdom.Element;
 import org.jdom.xpath.XPath;

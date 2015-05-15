@@ -1,5 +1,6 @@
 package com.marklogic.xquerytest.ps.example5;
 
+import static org.junit.Assert.*;
 import org.jdom.Document;
 import org.jdom.Element;
 import org.jdom.Text;
@@ -15,14 +16,14 @@ import com.marklogic.ps.util.JDomUtils;
  *
  */
 public class SearchTest extends XQueryXmlHttpTestCase {
-	protected void setUp() throws Exception {
+	public void setUp() throws Exception {
 		this.setServicePath("example5/search.xqy");
 		super.setUp();
 		insertTestContent("resource/medline1.xml", "/medline1.xml");
 		insertTestContent("resource/medline2.xml", "/medline2.xml");
 	}
 	
-	protected void tearDown() {
+	public void tearDown() {
 		
 	}
 	
