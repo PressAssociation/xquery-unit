@@ -3,7 +3,7 @@
 
     <groupId>com.marklogic.ps</groupId>
     <artifactId>xquery-unit-parent</artifactId>
-    <version>0.3.5</version>
+    <version>0.3.6-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -40,7 +40,7 @@
         <connection>scm:git:git@github.com:PressAssociation/xquery-unit.git</connection>
         <developerConnection>scm:git:git@github.com:PressAssociation/xquery-unit.git</developerConnection>
         <url>https://github.com/PressAssociation/xquery-unit/</url>
-        <tag>v0.3.5</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
