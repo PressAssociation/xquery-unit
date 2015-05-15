@@ -37,6 +37,13 @@
         </developer>
     </developers>
 
+    <scm>
+        <connection>scm:git:git@github.com:PressAssociation/xquery-unit.git</connection>
+        <developerConnection>scm:git:git@github.com:PressAssociation/xquery-unit.git</developerConnection>
+        <url>https://github.com/PressAssociation/xquery-unit/</url>
+        <tag>HEAD</tag>
+    </scm>
+
     <distributionManagement>
         <repository>
             <id>pressassociation.releases</id>
